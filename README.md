@@ -11,6 +11,9 @@ A Python + SQLite automation for user-configured quarterly-results alerts across
 5. The background monitor checks the configured exchange feed on the configured interval.
 6. When a new result appears after the alert was created, the system processes it and sends the notification to the WhatsApp recipients in `.env`.
 
+
+
+
 ## Notification flow
 
 ```text
